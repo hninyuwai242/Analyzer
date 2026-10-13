@@ -821,3 +821,5 @@ clear_btn.bind("<Enter>", lambda e: clear_btn.config(bg="#E2E8F0"))
 clear_btn.bind("<Leave>", lambda e: clear_btn.config(bg="#F1F5F9"))
 
 window.mainloop()
+
+
