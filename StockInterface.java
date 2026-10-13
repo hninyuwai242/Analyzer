@@ -42,3 +42,5 @@ public interface StockInterface extends Remote {
     // Daily & Monthly Sales Report အတွက် ပြင်ဆင်ထားသော Method (selectedDate parameter ထည့်သွင်းထားသည်)
     List<Map<String, Object>> getSalesReport(int branchId, String reportType, String selectedDate) throws RemoteException;
 }
+
+
